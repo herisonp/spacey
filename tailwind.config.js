@@ -21,12 +21,12 @@ export default {
       colors: {
         primary: {
           dark:  '#040327',
-          DEFAULT:  '#040327',
+          DEFAULT:  '#0B1E8A',
           light: '#3D68B2',
       },
       secundary: {
         light: '#FF8C70',
-        DEFAULT: '#CF3F1D',
+        DEFAULT: '#E85937',
         dark: '#CF3F1D'
       },
       spacegray: {
@@ -47,7 +47,10 @@ export default {
       backgroundImage: {
         'stars': "url('/images/stars.svg')"
       }
-  },
+    },
   plugins: [],
-}
+  },
+  plugins: [
+    require('@tailwindcss/forms'),
+  ]
 }
