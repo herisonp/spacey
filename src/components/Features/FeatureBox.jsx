@@ -11,4 +11,4 @@ function FeatureBox({iconURL, iconAlt, description}){
     )
 }
 
-export default FeatureBox;
+export default FeatureBox

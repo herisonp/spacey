@@ -1,5 +1,5 @@
 import BackgroundStars from "../components/BackgroundStars/BackgroundStars"
-import FormInput from "../components/form/FormInput"
+import FormInput from "../components/Form/FormInput"
 
 function Contact(){
 

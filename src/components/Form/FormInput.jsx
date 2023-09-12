@@ -12,4 +12,4 @@ function FormInput({label, id, type}){
     )
 }
 
-export default FormInput;
+export default FormInput
