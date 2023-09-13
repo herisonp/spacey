@@ -1,7 +1,7 @@
 function Banner(){
     return (
     <section className="overflow-hidden w-full h-fit py-6 md:py-24 bg-primary-dark">
-      <div className="container px-4 md:px-16 flex flex-col gap-16 md:gap-0 ustify-between md:flex-row">
+      <div className="container flex flex-col gap-16 md:gap-0 ustify-between md:flex-row">
         
         <div className="w-full md:w-7/12 text-center md:text-left flex flex-col items-center justify-center gap-4 md:gap-6 md:items-start relative">
             <h2 className="text-lg font-semibold uppercase text-auxiliary-sun tracking-widest">Finalmente é possível!</h2>
@@ -13,7 +13,7 @@ function Banner(){
             </a>
         </div>
 
-        <img src="/images/image-banner.svg" alt="Ilustração de astronaltas em marte." className="relative md:absolute -right-20 w-auto xl:w-auto md:-right-1/4 md:top-4 lg:right-0 lg:top-4" />
+        <img src="/images/image-banner.svg" alt="Ilustração de astronaltas em marte." className="relative md:absolute -right-20 w-auto xl:w-auto md:-right-1/4 md:top-4 lg:-right-40 xl:right-0 lg:top-4" />
 
       </div> 
     </section>

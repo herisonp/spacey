@@ -22,7 +22,7 @@ function Features(){
 
     return (
       <section className="w-full h-fit py-6 md:py-24 bg-primary-dark">
-        <div className="container px-4 md:px-16 flex flex-col text-center gap-16 md:gap-0 md:text-left md:flex-row justify-between items-center">
+        <div className="container flex flex-col text-center gap-16 md:gap-0 md:text-left md:flex-row justify-between items-center">
           {boxes.map(({iconURL, iconAlt, description}, index) => (
             <FeatureBox
               key={iconAlt + iconURL + index}

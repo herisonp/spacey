@@ -25,7 +25,7 @@ function Contact(){
         <section className="w-full h-fit py-16 md:py-28 pb-0 relative">
             <BackgroundStars />
 
-            <div className="container px-4 md:px-16 flex flex-col md:flex-row justify-between items-center md:items-start gap-16 relative">
+            <div className="container flex flex-col md:flex-row justify-between items-center md:items-start gap-16 relative">
                 <div className="bg-primary py-8 px-8 md:py-10 md:px-12 rounded-2xl w-full md:w-1/2 lg:w-1/2 flex flex-col gap-8">
                     <div className="flex flex-col gap-4">
                         <img className="w-14" src="/images/icon-ticket.svg" alt="icone de ingresso" />

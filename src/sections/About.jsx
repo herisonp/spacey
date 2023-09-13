@@ -7,7 +7,7 @@ function About(){
         <BackgroundStars />
 
 
-        <div className="container relative px-6 md:px-16 flex flex-col md:flex-row justify-between items-center gap-20">
+        <div className="container relative flex flex-col md:flex-row justify-between items-center gap-20">
           
           <img 
             src="/images/lines.svg"
@@ -26,9 +26,9 @@ function About(){
           </div>
         </div>
 
-        <div className="container px-4 md:px-16 mt-36 md:mt-56 flex flex-col md:flex-row justify-start items-start md:items-center gap-20 relative overflow-visible">
-          <div className="w-4/5 md:w-1/4 px-6 md:px-0 flex flex-col gap-3">
-            <img src="/images/logo.svg" alt="logo spacey" className="w-3/5" />
+        <div className="container mt-36 md:mt-56 flex flex-col md:flex-row justify-start items-start md:items-center gap-20 relative overflow-visible">
+          <div className="w-4/5 md:w-1/4 flex flex-col gap-3">
+            <img src="/images/logo.svg" alt="logo spacey" className="w-44" />
             <h4 className="font-bold text-3xl">
               O caminho para tornar a humanidade multiplanetária<span className="text-auxiliary-sun">.</span>
             </h4>
