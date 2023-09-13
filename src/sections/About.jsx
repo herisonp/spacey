@@ -2,22 +2,21 @@ import BackgroundStars from "../components/BackgroundStars/BackgroundStars";
 
 function About(){
     return (
-      <section className="relative w-full h-fit py-24 bg-gradient-to-b from-primary-dark to-50% overflow-hidden">
+      <section className="relative w-full h-fit px-4 py-16 md:py-24 bg-gradient-to-b from-primary-dark to-50% overflow-hidden">
         
         <BackgroundStars />
 
 
-        <div className="container relative flex flex-row justify-between items-center gap-20">
+        <div className="container relative px-6 md:px-16 flex flex-col md:flex-row justify-between items-center gap-20">
           
           <img 
             src="/images/lines.svg"
             alt="linhas representando órbitas"
-            width={'80%'}
-            className="absolute -left-1/2 top-0 z-0"
+            className="w-full md:w-4/5 absolute -left-1/2 top-0 z-0"
           />
 
-          <img className="w-1/2 relative" src="/images/mars.svg" alt="ilustração do planeta Marte" />
-          <div className="w-1/2 flex flex-col gap-4 relative">
+          <img className="w-3/4 md:w-1/2 relative" src="/images/mars.svg" alt="ilustração do planeta Marte" />
+          <div className="w-full md:w-1/2 flex flex-col gap-4 relative">
             <h2 className="text-lg font-semibold uppercase text-auxiliary-sun tracking-widest">POR QUE MARTE?</h2>
             <h2 className="text-3xl font-bold">Sobre o planeta vermelho</h2>
             <article className="flex flex-col gap-8">
@@ -27,23 +26,23 @@ function About(){
           </div>
         </div>
 
-        <div className="container mt-56 flex justify-start items-center gap-20 relative overflow-visible">
-          <div className="w-1/4 flex flex-col gap-3">
-            <img src="/images/logo.svg" alt="logo spacey" className="w-2/3" />
+        <div className="container px-4 md:px-16 mt-36 md:mt-56 flex flex-col md:flex-row justify-start items-start md:items-center gap-20 relative overflow-visible">
+          <div className="w-4/5 md:w-1/4 px-6 md:px-0 flex flex-col gap-3">
+            <img src="/images/logo.svg" alt="logo spacey" className="w-3/5" />
             <h4 className="font-bold text-3xl">
               O caminho para tornar a humanidade multiplanetária<span className="text-auxiliary-sun">.</span>
             </h4>
             <a href="#" className="text-secundary-light hover:text-secundary-light/70 text-lg font-bold">Inscreva-se agora</a>
           </div>
 
-          <img src="/images/chevron-left.svg" alt="Seta de navegação para esquerda" />
-          <div className="">
+          <div className="flex gap-4">
+            <img src="/images/chevron-left.svg" alt="Seta de navegação para esquerda" />
             <div className="flex gap-8 w-fit">
-              <img src="/images/gallery/image-03.jpg" alt="imagem de marte" className="rounded-xl" />
-              <img src="/images/gallery/image-02.jpg" alt="imagem de marte" className="rounded-xl" />
-              <img src="/images/gallery/image-01.jpg" alt="imagem de marte" className="rounded-xl" />
-              <img src="/images/gallery/image-01.jpg" alt="imagem de marte" className="rounded-xl" />
-              <img src="/images/gallery/image-01.jpg" alt="imagem de marte" className="rounded-xl" />
+              <img src="/images/gallery/image-03.jpg" alt="imagem de marte" className="rounded-xl w-52 md:w-auto" />
+              <img src="/images/gallery/image-02.jpg" alt="imagem de marte" className="rounded-xl w-52 md:w-auto" />
+              <img src="/images/gallery/image-01.jpg" alt="imagem de marte" className="rounded-xl w-52 md:w-auto" />
+              <img src="/images/gallery/image-01.jpg" alt="imagem de marte" className="rounded-xl w-52 md:w-auto" />
+              <img src="/images/gallery/image-01.jpg" alt="imagem de marte" className="rounded-xl w-52 md:w-auto" />
             </div>
           </div>
         </div>
